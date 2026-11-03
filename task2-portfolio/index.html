@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aathan S | Portfolio</title>
+  <meta name="description" content="Portfolio of Aathan S, final-year B.Tech Computer Science student focused on software development and QA testing.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="logo" href="#home">Aathan<span>.</span></a>
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">&#9776;</button>
+      <nav id="menu" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-btn" class="theme-btn" aria-label="Switch to dark mode" title="Switch theme">&#9790;</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Hello, I am</p>
+          <h1>Aathan S</h1>
+          <p class="role">Aspiring Software Developer and QA Tester</p>
+          <p class="lead">Final-year B.Tech Computer Science and Engineering student who enjoys building working software and making sure it does not break.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View my projects</a>
+            <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          </div>
+        </div>
+        <div class="avatar" aria-hidden="true"><span>AS</span></div>
+      </div>
+    </section>
+
+    <section id="about" class="section reveal">
+      <div class="container">
+        <h2>About me</h2>
+        <div class="about-grid">
+          <p>I am a final-year B.Tech student of Computer Science and Engineering at Dhanalakshmi Srinivasan University, Trichy, from Thiruvarur in Tamil Nadu. I like turning ideas into small, working applications, from machine learning projects to web apps.</p>
+          <ul class="facts">
+            <li><b>Education</b><span>B.Tech CSE, final year</span></li>
+            <li><b>University</b><span>Dhanalakshmi Srinivasan University, Trichy</span></li>
+            <li><b>Focus</b><span>Software development, QA and testing</span></li>
+            <li><b>Languages</b><span>Tamil, English</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt reveal">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div class="skill-card"><h3>Programming</h3><div class="chips"><span>Python</span><span>Java</span><span>SQL</span><span>JavaScript</span></div></div>
+          <div class="skill-card"><h3>Web</h3><div class="chips"><span>HTML</span><span>CSS</span><span>React</span><span>Flask</span></div></div>
+          <div class="skill-card"><h3>Testing</h3><div class="chips"><span>Manual testing</span><span>Selenium</span><span>TestNG</span><span>API testing</span></div></div>
+          <div class="skill-card"><h3>Concepts</h3><div class="chips"><span>SDLC and STLC</span><span>OOP</span><span>File handling</span><span>Problem solving</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project">
+            <h3>Smart Pothole Detection and Reporting System</h3>
+            <p>An academic project that detects potholes in road images and reports them, with a Flask backend and an Android app.</p>
+            <div class="chips"><span>MobileNetV2</span><span>OpenCV</span><span>Flask</span><span>Firebase</span><span>Android</span></div>
+          </article>
+          <article class="project">
+            <h3>RoadGuard</h3>
+            <p>A live web app for road issue reporting, with a map view and AI assistance, hosted on Google Cloud Run.</p>
+            <div class="chips"><span>React</span><span>TypeScript</span><span>Firestore</span><span>Leaflet</span><span>Tailwind CSS</span></div>
+          </article>
+          <article class="project">
+            <h3>Task Management System</h3>
+            <p>A console app to add, view, update and delete tasks, with the list saved in a file between runs.</p>
+            <div class="chips"><span>Python</span><span>OOP</span><span>File handling</span></div>
+          </article>
+          <article class="project">
+            <h3>Link Shortener</h3>
+            <p>A URL shortener with custom aliases, redirects and click analytics for each link.</p>
+            <div class="chips"><span>Node.js</span><span>Express</span><span>SQLite</span><span>JavaScript</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt reveal">
+      <div class="container">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <span class="date">24 Aug 2026 to 24 Sep 2026</span>
+            <h3>Software Development Intern</h3>
+            <p class="org">Cognifyz IT Solutions Pvt. Ltd.</p>
+            <p>Completed Python programming tasks: a number guessing game, a number pattern, a temperature converter and a file-based task management system.</p>
+          </li>
+          <li>
+            <span class="date">Final year</span>
+            <h3>B.Tech Computer Science and Engineering</h3>
+            <p class="org">Dhanalakshmi Srinivasan University, Trichy</p>
+            <p>Building academic projects in machine learning and web development while preparing for software development and QA testing roles.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p class="center">I am open to software development and QA testing opportunities. Reach me on any of these.</p>
+        <div class="contact-links">
+          <a class="contact-card" href="mailto:your-email@example.com"><b>Email</b><span>your-email@example.com</span></a>
+          <a class="contact-card" href="https://github.com/your-username" target="_blank" rel="noopener"><b>GitHub</b><span>github.com/your-username</span></a>
+          <a class="contact-card" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener"><b>LinkedIn</b><span>linkedin.com/in/your-profile</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; 2026 Aathan S</span>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
